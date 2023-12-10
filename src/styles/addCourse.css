@@ -1,0 +1,265 @@
+.course-detail{
+    border: 0.8vh solid grey;
+    border-radius: 4vh;
+    width: 90vw;
+    height: 40vh;
+    display:  flex; 
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 1vh;
+    margin: 1vh auto;
+}
+
+.course-thumbnail{
+    width: 35%;
+    height: 95%;
+    margin: 0.5vh auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border: 0.1vh solid black;
+    padding: 0.5vh;
+    background-color:#6c757d ;
+    border-radius: 3vh;
+}
+.course-thumbnail-addimage{
+    width: 80%;
+    min-height:25%;
+    border-radius: 3vh;
+    padding: 1vh;
+    border: 0.4vh dashed #ced4da;
+    margin: 0 auto;
+    color:white
+}
+.course-thumbnail-image{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 1vh;
+    padding: 0.3vh;
+    margin: 0 auto;   
+}
+.course-thumbnail-image-delete{
+    z-index: 0;
+    width: 30%;
+    height: 5%;
+    position: absolute;
+    font-size: 5vh;
+    opacity: 0;
+}
+.course-thumbnail-image-delete:hover{
+    z-index: 2;
+    opacity: 1;
+    color: red;
+}
+.course-bio{
+    width: 60%;
+    border:1px solid black;
+    border-radius:3vh;
+    margin:0.5vh auto;
+    height: 38vh;
+    padding: 0.5vh;
+    text-align: left;
+    background-color: #8d99ae;
+    overflow: auto;
+}
+.course-bio-container{
+    padding: 1vh;
+    overflow: auto;
+    min-height: 70%;
+    height: auto;
+}
+.common-label-bio{
+    font-weight: 550;
+    font-size: 3vh;
+    display: block;
+}
+.course-bio-title,.course-bio-desc,.course-bio-price,.course-bio-validity{
+    display: block;
+    font-size: 2.5vh;
+    color: black;
+    font-weight: 450;
+    width: 90%;
+    word-wrap: break-word;
+    padding: 0.5vh;
+    border-radius: 1vh;
+    border: 0.3vh groove #6c757d;
+}
+.course-bio-title{
+    height: 15%;
+}
+.course-bio-desc{
+    height: 40%;
+}
+.course-bio-price{
+    color:#38b000;
+    font-weight: 650;
+    width:45%;
+}
+.course-bio-validity{
+    color: #2b2d42;
+    font-weight: 650;
+    width: 40%;
+}
+.course-bio-btn{
+    display: block;
+    width: 90%;
+    margin: 1vh auto;
+    position: sticky;
+    text-align: center;
+    background:#04bef1 ;
+    border-radius: 5vh;
+    padding: 0.4vh
+}
+
+.add-lectures-box{
+    border: 0.8vh solid grey;
+    border-radius: 3vh;
+    width: 90vw;
+    height: 35vh;
+    display: flex; 
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 1vh;
+    margin: 1vh auto;
+    background: #6c757d;
+}
+.add-lectures-container{
+    margin: 0.5vh auto;
+    width: 95%;
+    height: 100%;
+    overflow: auto;
+}
+.add-lecture-before{
+    width: 90%;
+    margin: 3vh auto;
+    text-align: center;
+}
+
+.add-lecture-btn{
+    width: 90%;
+    border-radius: 3vh;
+    color:#edf6f9;
+    font-weight: 580;
+    padding: 1vh;
+    background:#00b4d8;
+    border: 0.3vh solid black;
+}
+.add-lecture-btn:hover{
+    color:#ffffff ;
+    background-color:#00abcd ;
+}
+.add-lecture-after{
+    width: 95%;
+    margin: 1vh auto;
+}
+.add-lecture-table{
+    list-style-type:none;
+    width: 100%;
+    margin: 2vh auto;
+    overflow: auto;
+    border: 0.5vh double #fca311;
+    padding: 0.5vw;
+
+}
+.table-head{
+    
+}
+.table-head span{
+    display: inline-block;
+    margin: 1vh;
+    width: 12%;
+    border: 1px solid black;
+    font-weight: 600;
+    text-align: center;
+    color:#fca311;
+}
+.table-descp,.table-title{
+    width: 19% !important;
+}
+
+
+/* Uploading video div */
+.uploadvideo-box{
+    position: absolute;
+    color: #080202;
+    top: 15%;
+    left: 25%;
+    max-height: 60vw;
+    width: 50vw;
+    overflow: auto;
+    margin: 1vw auto;
+    padding: 1vw;
+    z-index: 99;
+    background-color: rgba(191, 200, 255, 0.841);
+    border-radius: 2vh;
+}
+.uploadvideo-container{
+    width:80%;
+    height:30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    margin: 1vh auto;
+    border-radius: 3vh;
+}
+.uploadvideo-input{
+    width: 80%;
+    min-height:25%;
+    border-radius: 3vh;
+    padding: 1vh;
+    border: 0.4vh dashed #ced4da;
+    margin: 2vh auto;
+    color:white;
+}
+.uploadvideo-label{
+    display: block;
+    font-weight: 550;
+    font-size: 3.5vh;
+    color: black;
+    margin: 0.5vh;
+}
+.uploadvideo-title,.uploadvideo-description{
+    display: block;
+    font-size: 2.5vh;
+    color: black;
+    font-weight: 450;
+    width: 90%;
+    word-wrap: break-word;
+    padding: 0.5vh;
+    border-radius: 1vh;
+    border: 0.3vh groove #6c757d;
+}
+
+.uploadvideo-btn{
+    display: block;
+    text-align: center; 
+    margin: 2vh auto;
+    padding: 1vh;
+    font-weight: 560;
+    width: 80%;
+    border-radius: 3vh;
+    border: 0.3vh solid #0096c7;
+    background: #00b4d8;
+
+}
+.upload-div{
+    width: 80%;
+    margin: 1vh auto;
+    text-align: center;
+}
+.final-upload{
+    width: 80%;
+    padding: 1.5vh;
+    font-weight: 600;
+    word-spacing: 30%;
+    border-radius: 1vh;
+    background-color:#212529 ;
+    color:#ef233c ;
+    animation: btn-glow 2s alternate infinite;
+    text-shadow: 0vh 0vw 0.5vh #d90429;
+}
+.final-upload:hover{
+    background-color:#1c1c24 ;
+    border: 0.3vh solid #ffbe0b;
+}

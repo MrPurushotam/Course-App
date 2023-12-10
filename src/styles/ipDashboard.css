@@ -1,0 +1,117 @@
+.instructor-profile{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2vw auto;
+    padding: 0.5vw 0.2vw;
+    width: 35vw;
+    border: 1px solid black;
+    align-items: center;
+}
+.ip-photo{
+    width: 40%;
+    height: 60%;
+    border: 1px solid black;
+}
+.ip-info{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.ip-bio{
+    border: 0.2vw solid black;
+    word-wrap: break-word;
+    padding: 0.1vh;
+    width: 90%;
+    height: 5vh;
+    max-height: 30%;
+}
+
+.ip-update-profile{
+    position:fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    top: 15vh;
+    left: 35vw;
+    width: 30vw;
+    height: 40vh;
+    max-height: 50vw;
+    margin: 1vw auto;
+    padding: 1vw;
+    z-index: 999;
+    background-color: rgba(208, 214, 253, 0.862);
+    border-radius: 2vh;
+}
+
+.ip-container form input{
+    margin: 0.5vh;
+    width: 95%;
+    display: block;
+    padding: 0.7vh;
+    border-radius: 2vh;
+    border: 0.1vh solid black;
+    background:rgba(213, 203, 203, 0.35) ;
+}
+.ip-profile-label{
+    color: black;
+}
+.ip-update-btn{
+    width: 75%;
+    position: absolute;
+    border-radius: 3vh;
+    margin: 2vh auto;
+    color: rgb(255, 255, 255);
+    font-weight: 550;
+    background:linear-gradient(to right, #654ea3, #eaafc8);
+}
+.ip-update-btn:hover{
+    animation: btn-bg 2s alternate infinite;
+}
+@keyframes btn-bg {
+    0%{
+        background:linear-gradient(to bottom, #654ea3, #eaafc8);
+    }25%{
+        background:linear-gradient(to left,#654ea3,#eaafc8);
+    }50%{
+        background: linear-gradient(to top,#eaafc8,#654ea3);
+    }75%{
+        background: linear-gradient(to right,#eaafc8,#654ea3);
+    }
+}
+
+.ip-addCourse-section{
+    border: 0.5vh solid grey;
+    margin: 2vh auto;
+    width: 80%;
+    height: 31vh;
+    background: linear-gradient(to top, grey, #d3cbb8,grey);
+    border-radius: 3.5vh;
+}
+.ip-show-message{
+    border: 1px solid rgb(65, 64, 64);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width:30%;
+    margin: 1vh auto;
+    height: 90%;
+    border-radius: 3vh;
+    background: linear-gradient(to bottom, #6d6027, #d3cbb8);
+    padding: 0.5vw;
+    font-weight: 550;
+}
+.add-icon{
+    font-size: 3vh;
+    color: white;
+    border: 0.1vh solid white;
+    border-radius:10%;
+}
+.ip-message{
+    word-wrap: break-word;
+}
+
